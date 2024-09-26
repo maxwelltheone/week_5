@@ -23,33 +23,70 @@
 # for fruit in fruits:
    # print(fruit)
 
-cars = ["BMW", "Maserati", "Audi", "Mercedes","Ferrari"]
-print(f"these are a list of {cars}")
-print(f"The first being from {cars[0]}")
+#cars = ["BMW", "Maserati", "Audi", "Mercedes","Ferrari"]
+#print(f"these are a list of {cars}")
+#print(f"The first being from {cars[0]}")
 
 # changing value of the list
-cars[0] = "Lightning Mcqueen"
-print(f"The first car is {cars[0]}")
+#cars[0] = "Lightning Mcqueen"
+#print(f"The first car is {cars[0]}")
 
-print(f"the last car is {cars[-1]}")
-cars[-1] = "Lamborghini"
-print(f"the last car is {cars[-1]}")
+#print(f"the last car is {cars[-1]}")
+#cars[-1] = "Lamborghini"
+#print(f"the last car is {cars[-1]}")
 
 # adding a new value
-cars.append("Bugatti")
-print(cars)
-cars.remove("Maserati")
-print(cars)
+#cars.append("Bugatti")
+#print(cars)
+#cars.remove("Maserati")
+#print(cars)
 
 # Looping through the list (AKA iterating)
-for car in cars:
+#for car in cars:
    # print(len(car))
    # print(car)
-    carRequest = input("Add a new car please: ")
-    cars.append(carRequest)
-    print(cars)
-    print(len(cars))
-    print(cars.upper())
-    print(cars)
-    if len(cars) > 10:
-        break
+   # carRequest = input("Add a new car please: ")
+   # cars.append(carRequest)
+   # print(cars)
+   # print(len(cars))
+   # print(cars)
+   # if len(cars) > 10:
+       # break
+    #space
+#space
+
+#Challenge
+#create a list of friend
+#Make sure the intial list is none
+friends = []
+#add a new friend to the list, add at least 5
+#remove a friend
+#insert a new friend at a specific index (maybe 2)
+#print the list
+#loop through the list and print the friends names
+#see if a particular friend is in the list (Boolean value)
+#if the list is greater than 10, break the loop.
+friendRequest = input("Add a new friend please: ")
+friends.append(friendRequest)
+print(len(friends))
+print(friends)
+friendRequest = input("Add a new friend please: ")
+friends.append(friendRequest)
+print(len(friends))
+print(friends)
+friendRequest = input("Add a new friend please: ")
+friends.append(friendRequest)
+print(len(friends))
+print(friends)
+friendRequest = input("Add a new friend please: ")
+friends.append(friendRequest)
+print(len(friends))
+print(friends)
+friendRequest = input("Add a new friend please: ")
+friends.append(friendRequest)
+print(len(friends))
+print(friends)
+friends.remove("DaddyDoc")
+friends.insert(2, "Drift")
+print(friends)
+print("Cryptic" in friends)
